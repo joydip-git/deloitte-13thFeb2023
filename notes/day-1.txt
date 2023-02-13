@@ -112,6 +112,42 @@ every HTML file starts with <html> tag, containing <head> and <body> tag
 		}
 
 		B. create all the styles in separate CSS file and then link the CSS file with the HTML file: the same style can be reused in other HTML pages in your application
+
+
+Event-driven programming model
+events of HTML tags. Click event of button
+JavaScript: scripting language (1994)
+=> JS is dynamic programming language
+		=> JS does not provide any static type checking
+		=> It checks types and values all during runtime
+=> JS is loosely typed programming language
+=> JS is object-based programming language
+
+chrome => JS engine is V8
+firefox => JS engine is Spidermonkey
+safari => JS engine JavaScript Core
+
+ECMA
+	ES2,3,5,6,7,...,
+	ES6 in 2015
+		=> let, const keywords
+
+the code that we write in a JS file, is by default written inside an invisible function, known as, global function. as soon as the script file is loaded in the browser, the global function gets executed immediately. it does not wait for any event to take place.
+
+data types
+operators
+control flow statements
+language other features
+
+main 5 types of data:
+number, string, boolean, object and function
+
+undefined, null, NaN, Infinity etc.
+
+2009 => Node JS
+
+
+
 		
 
 

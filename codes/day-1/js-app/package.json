@@ -1,0 +1,16 @@
+{
+  "name": "js-app",
+  "version": "1.0.0",
+  "description": "simple web app",
+  "scripts": {
+    "compile": "babel source --out-dir dist"
+  },
+  "keywords": [],
+  "author": "joydip",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
