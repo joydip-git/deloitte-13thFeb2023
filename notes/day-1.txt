@@ -49,6 +49,19 @@ HTML:
 	2 types of tags depending on how they display the content inside:
 	a. in-line: in the same line
 	b. block: one block of content will be separated from anothet block of content by new line (line-break)
+
+HTML file structure:
+every HTML file starts with <html> tag, containing <head> and <body> tag
+	head:  optional, but good practice to use
+				contains lots of information about a page
+				contains links of other resources: CSS, JS files etc.
+	
+	meta: is the one which helps you to provide the information about the page. this tag can be used several times.
+
+	viewport: logical area of display out of a device's actual screen width
+			
+	body: the placeholder for actual design
+			  also, contains links of other resources: CSS, JS files etc
 	
 
 
