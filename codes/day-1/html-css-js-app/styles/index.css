@@ -1,0 +1,24 @@
+/* 1. element selector: choose one or more than one element, but the style will be applied on every insatnce of those element(s) on the page*/
+/* header {
+            background-color: burlywood;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        } */
+
+/* 2. id selector: choose one or more than one element and mention the id values of them. the style will be applied ONLY on those element(s) on the page*/
+#firstHeader,
+#secondHeader {
+  background-color: burlywood;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+/*3. clas selector: */
+.authorStyle {
+  color: brown;
+}
+
+.fontStyle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

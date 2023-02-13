@@ -63,8 +63,56 @@ every HTML file starts with <html> tag, containing <head> and <body> tag
 	body: the placeholder for actual design
 			  also, contains links of other resources: CSS, JS files etc
 	
+	header tags:
+	h1 (highest font size)--- h6 (lowest font size)
+	<header></header> <-- semantic tag
 
+	web servers:(real time production server for deployment of your applicattion)
+		IIS: Internet Information Services (windows o/s)
+					- path: C:\inetpub\wwwroot
+				Apache Tomcat
+				NGINX etc.
+		They all can host multiple application
+		Request from any client machine for any web app hosted in the server, can be processed by these servers
 
+		development mode web servers:
+		during development time, the web application should be hosted by a web server. one instance of that server can host only ONE application at a time. these servers can proces the request that was made only from development machine, where this server is running. generally these servers do hots the web app using different port other than 80
+	example: Live Server, lite-server, webpack-dev-server etc.
+
+	CSS: Cascading stylesheet
+
+	css-property    : value
+	
+	background-color:yellow
+	width           :300px
+
+	comments in CSS: /* ... */
+	
+	a. In-line style
+	<tag style="background-color:yellow;"></tag>
+
+	b. out-line style: (for reusability - can be applied on many elements/tags)
+
+		A. 
+		write your style within <style></style> inside the HTML file, either in head or in body tag or simultaneously in both
+
+		create your set of styles and then apply on any tag(s) by following way:
+		a. by mentioning the name of element(s)/tag(s): element selector.
+			choose one or more than one element, but the style will be applied on every insatnce of those element(s) on the page
+		b. by mentioning the value of "id" attribute of element(s)/tag(s): but the style will be applied on just those element(s) on the page
+
+	in above two cases, you have to decide on which element(s)/tag(s) the style will be applied, while creating the set of styles.
+	the following technique helps you create JUST the set of styles, but do not force you to decide on which tag(s) the style to be applied
+	
+	c. class selector: create a set of style the following way
+		.class-name {
+			css-prop-name1:value;
+			css-prop-nam2:value;
+			.......
+		}
+
+		B. create all the styles in separate CSS file and then link the CSS file with the HTML file: the same style can be reused in other HTML pages in your application
+		
 
 
 
