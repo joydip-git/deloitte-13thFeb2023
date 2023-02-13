@@ -1,0 +1,64 @@
+https://github.com/joydip-git/deloitte-13thFeb2023
+
+1. HTML
+2. CSS
+3. JavaScript
+4. OOP
+
+HTML:
+	markup language, which helps you create web app design
+	composed of tags (<html>, <ul>, <div> etc.)
+	tags/elements: 
+			openning and closing tag
+			<tag-name>		</tag-name>
+	every tag will contain:
+		another tag
+		textual content
+
+	*note: some tags might not conatin any of the above
+		<meta> <= empty, self-closing tag
+		old style: <meta />
+		<meta charset='utf-8'>
+
+	<p>
+		sdhasdsakdjsajdlkASJDLKjalkj
+	</p>
+
+	<head>
+		<title>
+				Index
+		</title>
+	</head>
+
+	attributes:
+		more or less, every tag will have some properties, known as attributes
+	attribute: name=value pair
+	<p id="mainPara" style="width:100px">
+		.....
+	</p>
+
+	*note: some attributes might not have values (since they have value which is same as that of the attribute name) and we use them directly just by attribute name
+	<select multiple>
+			<option selected="selected" disabled="disabled">--select--</option>
+			or
+			<option selected disabled>--select--</option>
+			<option>Anil</option>
+			<option>Sunil</option>
+	</select>
+
+	2 types of tags depending on how they display the content inside:
+	a. in-line: in the same line
+	b. block: one block of content will be separated from anothet block of content by new line (line-break)
+	
+
+
+
+
+
+
+
+
+
+
+
+
