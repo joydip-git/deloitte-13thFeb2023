@@ -1,0 +1,13 @@
+1. create an array to store values from 0 to 9 in arbitrary manner
+2. filter the array for ONLY even numbers
+
+Note: (yiu can't use built-in function of array to filter)
+	create a function, where you can pass the array as an argument and that function will filter the array for even numbers and will return another array containing only those even numbers
+	print the even numbers from the returned array (from the function)
+
+function name(arr){
+	//code to filter the array (arr) and return a fresh array with only even numbers from that array (arr)
+}
+
+const numbers = [....]
+const evenNumbers = name(numbers)
