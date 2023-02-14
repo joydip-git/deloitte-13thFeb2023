@@ -1,0 +1,23 @@
+functions in JS:
+
+function func-name(arg1,arg2,....){
+	//code here
+	//return value
+}
+
+function name should be camel-casing style: firstSecond
+function name should not contain any number or keywords or special character
+function name should be like a 'verb': doSomething() rather than something()
+
+NO:
+_sayHello(), sayHello1(), varHello()
+
+function argument name should be camel-casing style: firstSecond
+function argument name should be like a 'noun': firstValue, secondValue
+function argument name should not contain any number or keywords or special character:
+
+No:
+	_first, first1, var 
+
+
+

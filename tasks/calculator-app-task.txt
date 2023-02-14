@@ -1,0 +1,15 @@
+1. create 4 methods and all the methods should return the calculated value
+		for addition of 2 values
+		for subtraction of 2 values
+		for multiplication of 2 values
+		for division of 2 values
+
+2. display a menu for user (using alert())
+		1. Add 2. Subtract ,....
+3. ask for a choice (using prompt())
+		Enter choice[1/2/3/4]: 
+4. ask for values for calculation from user: (using prompt())
+		Enter First Value: 
+		next
+		Enter Second Value:
+5. call any one of the functions based on that choice and pass the values acepted from user and display the output in the console
