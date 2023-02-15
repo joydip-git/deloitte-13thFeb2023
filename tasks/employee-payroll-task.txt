@@ -1,0 +1,12 @@
+1. calculate salary of two types of employee in my company: Hr and Developer
+Hr properties: Name, id, basicpay, dapay, hrapay, gratuitypay
+	methods: calculateSalary(){ return calculated-salary based on basic, da, hra and gratuity}
+
+Developer properties: Name, id, basicpay, dapay, hrapay, incentivepay
+				 methods: calculateSalary(){ return calculated-salary based on basic, da, hra and incentive}
+
+create a base class with common factors between the two types of employee
+to avoid repeated code
+create 2 objects of Hr and 2 objects of Developer
+store the 4 objects in an array
+filter the array to select the employees whose salary is more than 20000 and display their names
