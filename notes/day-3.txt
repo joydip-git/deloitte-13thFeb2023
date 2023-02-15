@@ -1,0 +1,41 @@
+OOP:
+	object - real time entity
+
+	name, id, salary, department, projects
+
+	name, emailid, mobile, landline, address
+1. functions and objects
+
+	id, name, description, price, rating, imagePath
+
+class Person{
+	string name;
+	int id;
+	float salary;
+	string department;
+	string[] projects;
+
+	public Person(){}
+	public Person(string pname, int pid, float psalary, string pdept, string[] pprojects){
+		this.name = pname
+    	this.id = pid
+    	this.department = pdept
+    	this.salary = psalary
+    	this.projects = pprojects
+	}
+	public string print(){
+		return ....;
+	}
+}
+
+
+function person(pname, pid, psalary, pdept, pprojects){
+		this.name = pname
+    	this.id = pid
+    	this.department = pdept
+    	this.salary = psalary
+    	this.projects = pprojects
+		this.print = function(){
+			return ....;
+		}
+}
