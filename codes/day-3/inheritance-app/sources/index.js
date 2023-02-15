@@ -32,3 +32,5 @@ class Trainee extends Person {
     }
 }
 const anilTrainee = new Trainee('Anil', 1001, 100000, 'EDU', ['A', 'B'])
+
+window.document

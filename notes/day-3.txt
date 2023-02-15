@@ -41,3 +41,17 @@ function person(pname, pid, psalary, pdept, pprojects){
 }
 
 
+function add(fn){
+}
+
+function test(){}
+add(
+	function(){
+	}
+)
+
+
+
+
+
+
