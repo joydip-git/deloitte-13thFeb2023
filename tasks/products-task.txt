@@ -1,0 +1,2 @@
+create product objects with following value properties, using a constructor function technique:
+id, name, description, price, rating, imagePath

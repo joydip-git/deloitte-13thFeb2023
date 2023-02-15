@@ -6,7 +6,7 @@ OOP:
 	name, emailid, mobile, landline, address
 1. functions and objects
 
-	id, name, description, price, rating, imagePath
+	
 
 class Person{
 	string name;
@@ -39,3 +39,5 @@ function person(pname, pid, psalary, pdept, pprojects){
 			return ....;
 		}
 }
+
+
