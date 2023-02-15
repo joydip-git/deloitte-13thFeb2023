@@ -1,10 +1,22 @@
-//constructor function to create product
-//every product object should have the following value properties
-/**
- * id: unique id value of a product (number),
- * name: name of the product (string), 
- * description: description of the product (string), 
- * price: price of the product (number), 
- * rating:rating of the product (number, max 5), 
- * imagePath: path of the image file of the product, as present in your system
- */
+class Person {
+    constructor(pname, pid, psalary, pdept, pprojects) {
+        this.name = pname
+        this.id = pid
+        this.department = pdept
+        this.salary = psalary
+        this.projects = pprojects
+    }
+    print() {
+        return `${this.name}, ${this.department}, ${this.salary}`
+    }
+}
+
+const khushiObject = new Person('khushi', 1001, 100000, 'EDU', ['CITA', 'STA'])
+console.log(khushiObject.department)
+console.log(khushiObject['salary'])
+const infoOfKhsuhi = khushiObject.print()
+console.log(infoOfKhsuhi)
+
+const srirupObject = new Person('srirup', 1002, 110000, 'LEARNING', ['A'])
+const infoOfSrirup = srirupObject.print()
+console.log(infoOfSrirup)

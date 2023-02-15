@@ -4,11 +4,13 @@ function local() {
 }
 //constuctor function: used to store values with property names in an object
 function person(pname, pid, psalary, pdept, pprojects) {
+
     this.name = pname
     this.id = pid
     this.department = pdept
     this.salary = psalary
     this.projects = pprojects
+
     this.print = function () {
         //templated string (string interpolation)
         return `${this.name}, ${this.department}, ${this.salary}`
