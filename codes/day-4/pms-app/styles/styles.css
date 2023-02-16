@@ -1,0 +1,14 @@
+.title-style {
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #000000;
+  color: white;
+  height: 60px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

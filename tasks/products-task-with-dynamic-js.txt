@@ -1,0 +1,8 @@
+agenda: create a web page which will display sample product records
+
+1. create a product class with following properties:
+	id, name, price, description, imagepath, rating
+
+2. create some sample product objects (3)
+3. store those product objects in an array
+4. generate table rows (tr elements) dynamically for every product in the array and append them to the <tbody> element
