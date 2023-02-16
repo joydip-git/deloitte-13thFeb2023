@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM task</title>
+    <script src="./source/calculation.js">
+
+    </script>
+    <script src="./source/index.js">
+
+    </script>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <form id="calcForm">
+        <div>
+            <label for="radioAdd">Add &nbsp;</label>
+            <input type="radio" name="calculationRadios" id="radioAdd">
+            &nbsp;&nbsp;
+            <label for="radioSubtract">Subtract &nbsp;</label>
+            <input type="radio" name="calculationRadios" id="radioSubtract">
+            &nbsp;&nbsp;
+            <label for="radioMultiply">Multiply &nbsp;</label>
+            <input type="radio" name="calculationRadios" id="radioMultiply">
+            &nbsp;&nbsp;
+            <label for="radioDivide">Divide &nbsp;</label>
+            <input type="radio" name="calculationRadios" id="radioDivide">
+        </div>
+        <div>
+            <label for="txtFirst">First: &nbsp;</label>
+            <input type="text" id="txtFirst">
+        </div>
+        <div>
+            <label for="txtSecond">Second: &nbsp;</label>
+            <input type="text" id="txtSecond">
+        </div>
+        <div>
+            <input type="button" id="btnCalculate" value="Calculate">
+        </div>
+        <!-- <div>
+            <label for="txtResult">Result: &nbsp;</label>
+            <input type="text" readonly id='txtResult'>
+        </div> -->
+    </form>
+</body>
+
+</html>

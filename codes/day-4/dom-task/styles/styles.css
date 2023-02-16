@@ -1,0 +1,26 @@
+div {
+  margin: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: medium;
+}
+input[type="button"] {
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  padding: 3px;
+  background-color: cornflowerblue;
+  font-size: medium;
+  border-radius: 10px;
+  border: 1px solid cornflowerblue;
+  font-weight: lighter;
+}
+input[type="text"] {
+  margin: 5px;
+  align-self: center;
+  position: inherit;
+}
+.error-style {
+  background-color: cadetblue;
+  font-style: italic;
+}
