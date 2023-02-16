@@ -1,7 +1,7 @@
 .title-style {
   margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 120px;
+  margin-right: 120px;
   background-color: #000000;
   color: white;
   height: 60px;
@@ -11,4 +11,14 @@
   font-size: xx-large;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.img-style {
+  width: 75px;
+  margin: 2px;
+}
+.head-style {
+  background-color: burlywood;
+}
+#divTable {
+  margin-top: 20px;
 }
