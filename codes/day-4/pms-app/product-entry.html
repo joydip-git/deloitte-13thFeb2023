@@ -6,26 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Entry Form</title>
+    <script src="./source/product.js"></script>
+    <script src="./source/products.js"></script>
+    <script src="./source/product-entry.js"></script>
 </head>
 
 <body>
     <h2>Enter Product Details</h2>
+    <button style="float: right;" type="button" id="btnNavigate">
+        View Products
+    </button>
     <form>
+        <div>
+            <label for="txtId">Id:&nbsp;</label>
+            <input type="number" id="txtId">
+        </div>
+        <div>
+            <label for="txtName">Name:&nbsp;</label>
+            <input type="text" id="txtName">
+        </div>
+        <div>
+            <label for="txtPrice">Price:&nbsp;</label>
+            <input type="number" id="txtPrice">
+        </div>
+        <div>
+            <label for="txtRating">Rating:&nbsp;</label>
+            <input type="number" id="txtRating">
+        </div>
+        <div>
+            <label for="txtDesc">Description:&nbsp;</label>
+            <textarea id="txtDesc" cols="30" rows="10"></textarea>
+        </div>
         <div>
             <label for="imgInput">Image:&nbsp;</label>
             <input type="file" id="imgInput">
         </div>
         <div>
-            <label for="calenderInut">Date:&nbsp;</label>
-            <input type="date" id="calenderInut">
-        </div>
-        <div>
-            <label for="pwdInut">Password:&nbsp;</label>
-            <input type="password" id="pwdInut">
-        </div>
-        <div>
-            <label for="idInut">Id:&nbsp;</label>
-            <input type="number" id="idInut">
+            <input type="button" value="Add" id="btnAdd">
         </div>
     </form>
 </body>
