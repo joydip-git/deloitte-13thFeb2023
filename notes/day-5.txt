@@ -1,0 +1,130 @@
+OOP: Object oriented programming
+encapsulation 
+abstraction:
+	data abstraction
+	function implementation abstraction
+inheritance
+polymorphism
+
+PIE theory
+
+
+dell xps:
+	id: 1
+	name: dell xps
+	price: 100000
+	description:
+	rating: 4.5
+	image:
+
+class => blueprint for object
+
+object: characterestics and functionalities
+
+car:
+	color, chasisno, bootspace, engine-horsepower etc.
+	start, stop, putbreak, accelrate	
+
+class Car{
+	//fields/data-members/characterestics
+	protected string modelname;
+	protected string color;
+	protected string chasisNo;
+	protected int bootspace;
+	protected int horsepower;
+
+	//default constructor
+	public Car(){
+		/*this.color = null;
+		this.modelname = null;
+		this.chasisNo = null;
+		this.bootspace = 0;
+		this.horsepower = 0;*/
+	}
+	//parameterized constructor
+	public Car(string name, string color, string chasis, int power, int bootcapacity){
+		this.color = color;
+		this.modelname = name;
+		this.chasisNo = chasis;
+		this.bootspace = bootcapacity;
+		this.horsepower = power;
+	}
+
+	public string getChasisNo(){
+		return this.chasisno;
+	}
+	public void start(){
+		//code to start manually
+	}
+	public void stop(){
+	}
+	public void putBreak(){
+	}
+	public void accelrate(){
+	}
+}
+
+class Hyundai extends Car{
+	private bool isHud?
+	public Hyundai(string name, string color, string chasis, int power, int bootcapacity, bool ishud){
+		super(name, color, chasis, power, bootcapacity)
+		this.isHud = ishud
+	}
+	@override
+	public void start(){
+		//code to start using start/stop button
+	}
+}
+
+class Maruti extends Car{
+	private bool cruiseControl?
+	public Hyundai(string name, string color, string chasis, int power, int bootcapacity, bool cruiseControl){
+		this.color = color;
+		this.modelname = name;
+		this.chasisNo = chasis;
+		this.bootspace = bootcapacity;
+		this.horsepower = power;
+		this.cruiseControl= cruiseControl
+	}
+	@override
+	public void start(){
+		//code to start using start/stop button
+	}
+}
+
+
+Hyundai objRef = new Hyundai('santro','grey','axhp24',14,300, true)
+//objRef.chasisno =
+string chasis = objRef.getChaisno()
+
+access specifiers: controls access of members of class. they are actually some keywords.
+private: members can be accessed wihtin the class code, not outside class code (through object/instance)
+*note: by default every member (including member, method, constructor etc.) are private
+
+public:  members can be accessed wihtin the class code, as well as outside class code (through object/instance)
+
+
+class Calculation{
+		public void add(int a, int b){}
+		public void add(int a, int b, int c){}
+		public void add(int a, int b, float c){}
+		public void add(int a, float b, int c){}
+}
+
+Calculation c = new ....()
+c.add(11,13)
+c.add(10,12,13)
+
+polymorphism:
+	a. compile time
+			i. method overloading
+			ii. operator overloading
+	b. run time
+			method overriding
+
+12+13 
+'a'+'b'
+
+
+
+
